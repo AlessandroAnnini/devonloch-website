@@ -16,7 +16,7 @@
 	<script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 </head>
 
-<body class="demo-1 loading">
+<body class="bodystyle loading">
 	<svg class="hidden">
 		<symbol id="icon-facebook" viewBox="0 0 20 20">
 			<title>facebook</title>
@@ -26,6 +26,17 @@
 	</svg>
 	<main>
 		<div class="message">Sorry, your browser does not support clip-path on HTML elements!</div>
+		<div class="content">
+			<div class="glitch">
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+			</div>
+			<h2 class="content__title">Devon Loch</h2>
+			<p class="content__text">For What We Forget We Never Come Back</p>
+		</div>
 		<div class="content content--fixed">
 			<a class="social" href="https://www.facebook.com/lochdevon/" title="Find this band on Facebook" target="_blank">
 				<svg class="icon icon--facebook">
@@ -38,21 +49,11 @@
 				</a>
 			</nav> -->
 			<nav class="links">
-				<a class="links links--current" href="https://unsplash.com/photos/V4qmxSYcuaU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-					<span>Photo by Anudariya Munkhbayar on Unsplash</span>
+				<a class="links" href="https://unsplash.com/photos/V4qmxSYcuaU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+				 target="_blank">
+					<span>ee Photo by Anudariya Munkhbayar on Unsplash</span>
 				</a>
 			</nav>
-		</div>
-		<div class="content">
-			<div class="glitch">
-				<div class="glitch__img"></div>
-				<div class="glitch__img"></div>
-				<div class="glitch__img"></div>
-				<div class="glitch__img"></div>
-				<div class="glitch__img"></div>
-			</div>
-			<h2 class="content__title">Devon Loch</h2>
-			<p class="content__text">For What We Forget We Never Come Back</p>
 		</div>
 	</main>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
