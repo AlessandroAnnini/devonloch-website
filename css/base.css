@@ -353,7 +353,9 @@ main {
 }
 
 .social {
-  display: block;
+  /* display: block; */
+  display: flex;
+  flex-direction: row;
   align-self: end;
   grid-area: social;
   justify-self: start;
@@ -439,7 +441,9 @@ a.links--current {
     text-align: center;
   }
   .social {
-    display: block;
+    /* display: block; */
+    display: flex;
+    justify-content: center;
     margin: 1em auto;
   }
   .content--top .social {
