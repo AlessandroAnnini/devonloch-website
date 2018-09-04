@@ -31,15 +31,18 @@
 }
 
 .content__title {
-  font-size: 12vw;
+  font-size: 8vw;
   margin: 15vh 0 0 0;
   position: relative;
-  font-family: 'Poiret One', 'Playfair Display', serif;
+  /* font-family: 'Poiret One', 'Playfair Display', serif; */
+  font-family: 'Syncopate', sans-serif;
+  font-weight: normal;
   animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
 }
 
 .content__text {
   font-family: 'Poiret One', 'IM Fell English', serif;
+  font-family: 'Gruppo', cursive;
   position: absolute;
   font-size: 1.5em;
   top: 4em;
@@ -394,4 +397,13 @@
     opacity: 0;
     transform: translate3d(0, 0, 0);
   }
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 60px;
 }
