@@ -1,6 +1,11 @@
 @font-face {
-  font-family: 'CFPunkForever';
-  src: url('./../fonts/CFPunkForever.ttf') format('truetype');
+  font-family: 'Syncopate';
+  src: url('./../fonts/Syncopate-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./../fonts/OpenSans-Light.ttf') format('truetype');
 }
 
 article,

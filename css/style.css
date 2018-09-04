@@ -41,15 +41,14 @@
 }
 
 .content__text {
-  font-family: 'Poiret One', 'IM Fell English', serif;
-  font-family: 'Gruppo', cursive;
+  font-family: 'OpenSans', cursive;
   position: absolute;
-  font-size: 1.5em;
+  font-size: 1.3em;
   top: 4em;
   right: 10vw;
   max-width: 500px;
   text-align: right;
-  font-weight: 400;
+  letter-spacing: 8px;
   animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.25);
 }
 
