@@ -411,3 +411,9 @@
 .credits {
   font-size: 12px;
 }
+
+.socialicon {
+  font-size: 1.5em;
+  color: #fafafa;
+  padding: 8px;
+}
