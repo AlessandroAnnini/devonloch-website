@@ -83,7 +83,7 @@ pre {
   white-space: pre-wrap;
 }
 q {
-  quotes: '\201C' '\201D' '\2018' '\2019';
+  quotes: '\201C''\201D''\2018''\2019';
 }
 small {
   font-size: 80%;
@@ -319,12 +319,12 @@ main {
   height: 100vh;
   padding: 1.5em;
   pointer-events: none;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 30% 40% 30%;
   grid-template-rows: auto auto 4em;
   grid-template-areas:
-    'header header'
-    '... ...'
-    'social links';
+    'header header header'
+    '... ... ...'
+    'social mailchimp links';
 }
 
 .content--fixed a {
@@ -376,6 +376,13 @@ main {
   margin: 0 1em 0 auto;
 }
 
+.mailchimp {
+  align-self: end;
+  position: relative;
+  grid-area: mailchimp;
+  pointer-events: all;
+}
+
 .links {
   position: relative;
   /* display: block; */
@@ -384,7 +391,7 @@ main {
   grid-area: links;
 }
 
-.content--top .linsk {
+.content--top .links {
   align-self: center;
 }
 
