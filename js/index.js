@@ -28,18 +28,6 @@
       navigate(ev.target);
     })
   );
-  document.addEventListener('keydown', ev => {
-    const keyCode = ev.keyCode || ev.which;
-    let linkEl;
-    if (keyCode === 37) {
-      linkEl = current > 0 ? navlinks[current - 1] : navlinks[total - 1];
-    } else if (keyCode === 39) {
-      linkEl = current < total - 1 ? navlinks[current + 1] : navlinks[0];
-    } else {
-      return false;
-    }
-    navigate(linkEl);
-  });
   imagesLoaded('.glitch__img', { background: true }, () => {
     document.body.classList.remove('loading');
     document.body.classList.add('imgloaded');

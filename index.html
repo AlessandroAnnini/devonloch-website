@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-125714222-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'UA-125714222-1');
-    </script>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Devon Loch</title>
@@ -104,8 +89,9 @@
             title="facebook"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit Devon Loch on Facebook"
           >
-            <span class="socialicon">
+            <span class="socialicon" aria-hidden="true">
               <i class="fab fa-facebook-f"></i>
             </span>
           </a>
@@ -114,8 +100,9 @@
             title="bandcamp"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Listen to Devon Loch on Bandcamp"
           >
-            <span class="socialicon">
+            <span class="socialicon" aria-hidden="true">
               <i class="fab fa-bandcamp"></i>
             </span>
           </a>
@@ -124,16 +111,18 @@
             title="spotify"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Listen to Devon Loch on Spotify"
           >
-            <span class="socialicon">
+            <span class="socialicon" aria-hidden="true">
               <i class="fab fa-spotify"></i>
             </span>
           </a>
           <a
             href="mailto:hello@devonloch.band"
             title="Send a mail to hello@devonloch.band"
+            aria-label="Send email to Devon Loch"
           >
-            <span class="socialicon">
+            <span class="socialicon" aria-hidden="true">
               <i class="fas fa-at"></i>
             </span>
           </a>
@@ -207,7 +196,7 @@
         </nav>
       </div>
     </main>
-    <script async src="js/imagesloaded.pkgd.min.js"></script>
-    <script async src="js/index.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script defer src="js/index.js"></script>
   </body>
 </html>

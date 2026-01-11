@@ -14,4 +14,4 @@ This resource can be used freely if integrated or build upon in personal or comm
 
 Follow Devon Loch: [Facebook](https://www.facebook.com/lochdevon/)
 
-[© Devon Loch 2018](http://devonloch.band)
+[© Devon Loch 2026](http://devonloch.band)
